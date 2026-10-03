@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QB HOUSE 混雑観測所（非公式）</title>
+<style>
+body{margin:0;background:#f5f6f8;color:#17191d;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}
+.wrap{max-width:1000px;margin:auto;padding:14px}h1{font-size:24px;margin:10px 0 3px}.sub,.note{font-size:12px;color:#6c727f;line-height:1.6}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0}.card,.box{background:#fff;border:1px solid #e5e7eb;border-radius:13px}
+.card{padding:13px}.label{font-size:11px;color:#6c727f}.value{font-size:23px;font-weight:750;margin-top:4px}
+.controls{display:flex;gap:7px;margin:10px 0;flex-wrap:wrap}input,select{padding:10px;border:1px solid #ddd;border-radius:9px;background:white;font-size:14px}
+input{flex:1;min-width:170px}.box{overflow:auto}table{width:100%;border-collapse:collapse;min-width:610px}
+th,td{padding:11px;border-bottom:1px solid #eee;text-align:left;font-size:13px}th{font-size:11px;color:#6c727f}.hot{font-weight:800}
+.note{margin:12px 2px}@media(max-width:600px){.cards{grid-template-columns:1fr 1fr}.cards .card:last-child{grid-column:1/-1}}
+</style></head><body><div class="wrap">
+<h1>QB HOUSE 混雑観測所</h1><div class="sub">全国のQB HOUSEを無駄に横断観測する非公式サイト　<span id="updated">取得中…</span></div>
+<div class="cards"><div class="card"><div class="label">全国待機者</div><div class="value" id="total">–</div></div>
+<div class="card"><div class="label">最多待ち</div><div class="value" id="max">–</div></div>
+<div class="card"><div class="label">観測中（営業中）</div><div class="value" id="count">–</div></div></div>
+<div class="controls"><input id="q" placeholder="店舗名を検索"><select id="sort">
+<option value="wait">待ち人数が多い順</option><option value="ratio">1席あたりが多い順</option><option value="name">店舗名順</option></select></div>
+<div class="box"><table><thead><tr><th>#</th><th>店舗名</th><th>待ち</th><th>稼働席</th><th>人/席</th><th>概算*</th></tr></thead><tbody id="body"></tbody></table></div>
+<div class="note">※非公式サイトです。QB HOUSE株式会社とは関係ありません。表示値はQB HOUSE公式店舗検索の公開情報を定期取得したもので、実際の店舗状況と異なる場合があります。概算は「待ち人数÷稼働席数×10分」の単純計算で、実際の待ち時間を保証しません。</div>
+</div><script>
+let shops=[];
+const $=s=>document.querySelector(s);
+function render(){
+ const q=$("#q").value.toLowerCase(), sort=$("#sort").value;
+ let a=shops.filter(x=>x.name.toLowerCase().includes(q));
+ a.sort((x,y)=>sort==="name"?x.name.localeCompare(y.name,"ja"):sort==="ratio"?y.ratio-x.ratio:y.wait-x.wait);
+ $("#body").innerHTML=a.map((x,i)=>`<tr><td>${i+1}</td><td>${x.name}</td><td class="hot">${x.wait}人</td><td>${x.chairs}席</td><td>${x.ratio.toFixed(2)}</td><td>約${Math.ceil(x.ratio*10)}分</td></tr>`).join("");
+}
+fetch("./data/shops.json?"+Date.now()).then(r=>r.json()).then(d=>{
+ shops=d.shops; $("#updated").textContent="最終取得 "+new Date(d.updated_at).toLocaleString("ja-JP");
+ $("#total").textContent=shops.reduce((s,x)=>s+x.wait,0)+"人";
+ $("#max").textContent=(Math.max(...shops.map(x=>x.wait)))+"人";
+ $("#count").textContent=shops.length+"店"; render();
+}).catch(()=>$("#updated").textContent="データ取得失敗");
+$("#q").oninput=render;$("#sort").onchange=render;
+</script></body></html>
