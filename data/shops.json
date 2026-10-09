@@ -1,31 +1,15 @@
 {
-  "updated_at": "2026-10-09T20:43:37+09:00",
+  "updated_at": "2026-10-10T08:40:19+09:00",
   "source": "https://www.qbhouse.co.jp/search/",
-  "count": 3,
+  "count": 1,
   "shops": [
     {
-      "name": "渋谷マークシティ店",
-      "wait": 2,
-      "chairs": 4,
+      "name": "ＳＯＣＯＬＡ塚口クロス店",
+      "wait": 1,
+      "chairs": 2,
       "ratio": 0.5,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/503"
-    },
-    {
-      "name": "ラゾーナ川崎プラザ店",
-      "wait": 1,
-      "chairs": 3,
-      "ratio": 0.333,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/389"
-    },
-    {
-      "name": "イオンモール沖縄ライカム店",
-      "wait": 0,
-      "chairs": 3,
-      "ratio": 0.0,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/652"
+      "url": "https://www.qbhouse.co.jp/search/836"
     }
   ]
 }
