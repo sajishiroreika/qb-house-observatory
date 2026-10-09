@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-09T20:03:24+09:00",
+  "updated_at": "2026-10-09T20:24:28+09:00",
   "source": "https://www.qbhouse.co.jp/search/",
-  "count": 47,
+  "count": 43,
   "shops": [
     {
       "name": "京急横浜駅北口店",
@@ -13,107 +13,35 @@
     },
     {
       "name": "京王モールアネックス店",
-      "wait": 7,
+      "wait": 8,
       "chairs": 3,
-      "ratio": 2.333,
+      "ratio": 2.667,
       "open": true,
       "url": "https://www.qbhouse.co.jp/search/526"
     },
     {
-      "name": "西新井トスカ店",
-      "wait": 7,
-      "chairs": 2,
-      "ratio": 3.5,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/838"
-    },
-    {
-      "name": "ＥＱＵｉＡ北千住店",
-      "wait": 7,
-      "chairs": 3,
-      "ratio": 2.333,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/587"
-    },
-    {
-      "name": "ＫＩＴＴＥ 丸の内店",
+      "name": "新宿南口店",
       "wait": 7,
       "chairs": 4,
       "ratio": 1.75,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/873"
-    },
-    {
-      "name": "ビーンズ中山店",
-      "wait": 6,
-      "chairs": 1,
-      "ratio": 6.0,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/510"
-    },
-    {
-      "name": "川崎アゼリア店",
-      "wait": 6,
-      "chairs": 3,
-      "ratio": 2.0,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/674"
-    },
-    {
-      "name": "新宿南口店",
-      "wait": 6,
-      "chairs": 4,
-      "ratio": 1.5,
-      "open": true,
       "url": "https://www.qbhouse.co.jp/search/906"
     },
     {
-      "name": "ＥＱＵｉＡ朝霞店",
+      "name": "ＥＱＵｉＡ北千住店",
       "wait": 6,
       "chairs": 3,
       "ratio": 2.0,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/507"
+      "url": "https://www.qbhouse.co.jp/search/587"
     },
     {
-      "name": "アリオ亀有店",
-      "wait": 5,
-      "chairs": 2,
-      "ratio": 2.5,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/762"
-    },
-    {
-      "name": "イオンモール京都五条店",
-      "wait": 5,
-      "chairs": 2,
-      "ratio": 2.5,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/682"
-    },
-    {
-      "name": "グランエミオ所沢店",
+      "name": "渋谷マークシティ店",
       "wait": 5,
       "chairs": 4,
       "ratio": 1.25,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/733"
-    },
-    {
-      "name": "ラゾーナ川崎プラザ店",
-      "wait": 5,
-      "chairs": 2,
-      "ratio": 2.5,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/389"
-    },
-    {
-      "name": "東京ソラマチ店",
-      "wait": 5,
-      "chairs": 2,
-      "ratio": 2.5,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/710"
+      "url": "https://www.qbhouse.co.jp/search/503"
     },
     {
       "name": "渋谷南口店",
@@ -124,12 +52,28 @@
       "url": "https://www.qbhouse.co.jp/search/488"
     },
     {
-      "name": "アリオ蘇我店",
-      "wait": 4,
-      "chairs": 3,
-      "ratio": 1.333,
+      "name": "西新井トスカ店",
+      "wait": 5,
+      "chairs": 2,
+      "ratio": 2.5,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/539"
+      "url": "https://www.qbhouse.co.jp/search/838"
+    },
+    {
+      "name": "Ｂｅａｎｓ武蔵中原店",
+      "wait": 5,
+      "chairs": 3,
+      "ratio": 1.667,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/538"
+    },
+    {
+      "name": "ＫＩＴＴＥ 丸の内店",
+      "wait": 5,
+      "chairs": 4,
+      "ratio": 1.25,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/873"
     },
     {
       "name": "イオンモール久御山店",
@@ -140,12 +84,20 @@
       "url": "https://www.qbhouse.co.jp/search/570"
     },
     {
-      "name": "イオン海浜幕張店",
+      "name": "イオンレイクタウンｋａｚｅ店",
       "wait": 4,
       "chairs": 2,
       "ratio": 2.0,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/630"
+      "url": "https://www.qbhouse.co.jp/search/457"
+    },
+    {
+      "name": "ビーンズ中山店",
+      "wait": 4,
+      "chairs": 2,
+      "ratio": 2.0,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/510"
     },
     {
       "name": "ペリエ千葉エキナカ店",
@@ -156,36 +108,20 @@
       "url": "https://www.qbhouse.co.jp/search/714"
     },
     {
-      "name": "渋谷マークシティ店",
-      "wait": 4,
-      "chairs": 4,
-      "ratio": 1.0,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/503"
-    },
-    {
-      "name": "ｎｏｎｏｗａ西国分寺店",
-      "wait": 4,
+      "name": "アリオ亀有店",
+      "wait": 3,
       "chairs": 2,
-      "ratio": 2.0,
+      "ratio": 1.5,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/553"
+      "url": "https://www.qbhouse.co.jp/search/762"
     },
     {
-      "name": "アリオ葛西店",
+      "name": "イオンモール与野店",
       "wait": 3,
       "chairs": 3,
       "ratio": 1.0,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/569"
-    },
-    {
-      "name": "アリオ鷲宮店",
-      "wait": 3,
-      "chairs": 3,
-      "ratio": 1.0,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/588"
+      "url": "https://www.qbhouse.co.jp/search/442"
     },
     {
       "name": "イオンモール浦和美園店",
@@ -196,60 +132,20 @@
       "url": "https://www.qbhouse.co.jp/search/368"
     },
     {
-      "name": "イオンレイクタウンｋａｚｅ店",
+      "name": "イオン海浜幕張店",
       "wait": 3,
       "chairs": 2,
       "ratio": 1.5,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/457"
+      "url": "https://www.qbhouse.co.jp/search/630"
     },
     {
-      "name": "イトーヨーカドー曳舟店",
-      "wait": 3,
-      "chairs": 2,
-      "ratio": 1.5,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/524"
-    },
-    {
-      "name": "カエデウォーク長津田店",
-      "wait": 3,
-      "chairs": 2,
-      "ratio": 1.5,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/341"
-    },
-    {
-      "name": "テラスモール湘南店",
-      "wait": 3,
-      "chairs": 2,
-      "ratio": 1.5,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/559"
-    },
-    {
-      "name": "西武高田馬場駅店",
-      "wait": 3,
-      "chairs": 4,
-      "ratio": 0.75,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/98"
-    },
-    {
-      "name": "調布パルコ店",
+      "name": "ＥＱＵｉＡ朝霞店",
       "wait": 3,
       "chairs": 3,
       "ratio": 1.0,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/459"
-    },
-    {
-      "name": "Ｂｅａｎｓ武蔵中原店",
-      "wait": 3,
-      "chairs": 3,
-      "ratio": 1.0,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/538"
+      "url": "https://www.qbhouse.co.jp/search/507"
     },
     {
       "name": "Ｅｃｈｉｋａ池袋店",
@@ -260,12 +156,20 @@
       "url": "https://www.qbhouse.co.jp/search/478"
     },
     {
-      "name": "ＬＩＶＩＮオズ大泉店",
+      "name": "ｎｏｎｏｗａ西国分寺店",
       "wait": 3,
-      "chairs": 3,
+      "chairs": 2,
+      "ratio": 1.5,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/553"
+    },
+    {
+      "name": "イトーヨーカドー曳舟店",
+      "wait": 2,
+      "chairs": 2,
       "ratio": 1.0,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/252"
+      "url": "https://www.qbhouse.co.jp/search/524"
     },
     {
       "name": "イトーヨーカドー甲子園店",
@@ -276,44 +180,84 @@
       "url": "https://www.qbhouse.co.jp/search/274"
     },
     {
-      "name": "ペリエ稲毛店",
+      "name": "テラスモール湘南店",
+      "wait": 2,
+      "chairs": 2,
+      "ratio": 1.0,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/559"
+    },
+    {
+      "name": "東京ソラマチ店",
       "wait": 2,
       "chairs": 3,
       "ratio": 0.667,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/632"
-    },
-    {
-      "name": "アリオ札幌店",
-      "wait": 1,
-      "chairs": 3,
-      "ratio": 0.333,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/635"
-    },
-    {
-      "name": "イオンモール与野店",
-      "wait": 1,
-      "chairs": 3,
-      "ratio": 0.333,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/442"
-    },
-    {
-      "name": "シャポー市川店",
-      "wait": 1,
-      "chairs": 3,
-      "ratio": 0.333,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/454"
+      "url": "https://www.qbhouse.co.jp/search/710"
     },
     {
       "name": "阪急茨木市駅店",
+      "wait": 2,
+      "chairs": 3,
+      "ratio": 0.667,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/86"
+    },
+    {
+      "name": "アリオ葛西店",
       "wait": 1,
       "chairs": 3,
       "ratio": 0.333,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/86"
+      "url": "https://www.qbhouse.co.jp/search/569"
+    },
+    {
+      "name": "イオンモール京都五条店",
+      "wait": 1,
+      "chairs": 2,
+      "ratio": 0.5,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/682"
+    },
+    {
+      "name": "グランエミオ所沢店",
+      "wait": 1,
+      "chairs": 4,
+      "ratio": 0.25,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/733"
+    },
+    {
+      "name": "ステラタウン店",
+      "wait": 1,
+      "chairs": 2,
+      "ratio": 0.5,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/518"
+    },
+    {
+      "name": "ペリエ稲毛店",
+      "wait": 1,
+      "chairs": 3,
+      "ratio": 0.333,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/632"
+    },
+    {
+      "name": "ラゾーナ川崎プラザ店",
+      "wait": 1,
+      "chairs": 3,
+      "ratio": 0.333,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/389"
+    },
+    {
+      "name": "西武高田馬場駅店",
+      "wait": 1,
+      "chairs": 4,
+      "ratio": 0.25,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/98"
     },
     {
       "name": "Ｓ－ＰＡＬ仙台店",
@@ -332,20 +276,36 @@
       "url": "https://www.qbhouse.co.jp/search/620"
     },
     {
+      "name": "アリオ札幌店",
+      "wait": 0,
+      "chairs": 3,
+      "ratio": 0.0,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/635"
+    },
+    {
+      "name": "アリオ蘇我店",
+      "wait": 0,
+      "chairs": 3,
+      "ratio": 0.0,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/539"
+    },
+    {
+      "name": "アリオ鷲宮店",
+      "wait": 0,
+      "chairs": 3,
+      "ratio": 0.0,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/588"
+    },
+    {
       "name": "アルプラザ水口店",
       "wait": 0,
       "chairs": 2,
       "ratio": 0.0,
       "open": true,
       "url": "https://www.qbhouse.co.jp/search/71"
-    },
-    {
-      "name": "イオンモール伊丹店",
-      "wait": 0,
-      "chairs": 3,
-      "ratio": 0.0,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/701"
     },
     {
       "name": "イオンモール北戸田店",
@@ -372,12 +332,20 @@
       "url": "https://www.qbhouse.co.jp/search/126"
     },
     {
-      "name": "ステラタウン店",
+      "name": "シャポー市川店",
       "wait": 0,
-      "chairs": 2,
+      "chairs": 3,
       "ratio": 0.0,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/518"
+      "url": "https://www.qbhouse.co.jp/search/454"
+    },
+    {
+      "name": "ＬＩＶＩＮオズ大泉店",
+      "wait": 0,
+      "chairs": 3,
+      "ratio": 0.0,
+      "open": true,
+      "url": "https://www.qbhouse.co.jp/search/252"
     }
   ]
 }
