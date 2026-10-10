@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-11T08:42:28+09:00",
+  "updated_at": "2026-10-11T08:56:42+09:00",
   "source": "https://www.qbhouse.co.jp/search/",
   "count": 1,
   "shops": [
     {
       "name": "ＳＯＣＯＬＡ塚口クロス店",
-      "wait": 4,
+      "wait": 2,
       "chairs": 3,
-      "ratio": 1.333,
+      "ratio": 0.667,
       "open": true,
       "url": "https://www.qbhouse.co.jp/search/836"
     }
