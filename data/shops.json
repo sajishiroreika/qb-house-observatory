@@ -1,23 +1,15 @@
 {
-  "updated_at": "2026-10-11T20:42:23+09:00",
+  "updated_at": "2026-10-11T20:57:24+09:00",
   "source": "https://www.qbhouse.co.jp/search/",
-  "count": 2,
+  "count": 1,
   "shops": [
     {
       "name": "イオンモール沖縄ライカム店",
-      "wait": 1,
-      "chairs": 3,
-      "ratio": 0.333,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/652"
-    },
-    {
-      "name": "ラゾーナ川崎プラザ店",
       "wait": 0,
       "chairs": 3,
       "ratio": 0.0,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/389"
+      "url": "https://www.qbhouse.co.jp/search/652"
     }
   ]
 }
