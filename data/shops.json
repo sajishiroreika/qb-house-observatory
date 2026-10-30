@@ -1,47 +1,15 @@
 {
-  "updated_at": "2026-10-30T20:36:33+09:00",
+  "updated_at": "2026-10-31T08:36:25+09:00",
   "source": "https://www.qbhouse.co.jp/search/",
-  "count": 5,
+  "count": 1,
   "shops": [
     {
-      "name": "渋谷マークシティ店",
-      "wait": 6,
-      "chairs": 4,
-      "ratio": 1.5,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/503"
-    },
-    {
-      "name": "Ｅｃｈｉｋａ池袋店",
-      "wait": 5,
-      "chairs": 4,
-      "ratio": 1.25,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/478"
-    },
-    {
-      "name": "イオンモール沖縄ライカム店",
-      "wait": 3,
-      "chairs": 3,
-      "ratio": 1.0,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/652"
-    },
-    {
-      "name": "ラゾーナ川崎プラザ店",
-      "wait": 1,
-      "chairs": 3,
-      "ratio": 0.333,
-      "open": true,
-      "url": "https://www.qbhouse.co.jp/search/389"
-    },
-    {
-      "name": "ｎｏｎｏｗａ西国分寺店",
+      "name": "ＳＯＣＯＬＡ塚口クロス店",
       "wait": 0,
-      "chairs": 2,
+      "chairs": 3,
       "ratio": 0.0,
       "open": true,
-      "url": "https://www.qbhouse.co.jp/search/553"
+      "url": "https://www.qbhouse.co.jp/search/836"
     }
   ]
 }
